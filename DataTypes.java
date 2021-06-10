@@ -14,6 +14,7 @@ public class DataTypes{
         boolean cantik = true;
         
         System.out.println("Nama depan : " + namaDepan);
+        namaDepan = JOptionPane.showInputDialog("Nama Depan : ");
         System.out.println("Usia : " + usia);
         System.out.println("Target Kuliah : " + targetTahunKuliah + " tahun");
         System.out.println("IPK : " + ipk);
